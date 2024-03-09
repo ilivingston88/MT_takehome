@@ -4,4 +4,4 @@ from .models import FizzBuzz
 class FizzBuzzSerializer(serializers.ModelSerializer):
     class Meta:
         model = FizzBuzz
-        fields = ['id', 'user_agent', 'date_created', 'message']
+        fields = ['id', 'useragent', 'creation_date', 'message']

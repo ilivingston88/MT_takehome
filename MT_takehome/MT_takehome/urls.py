@@ -24,7 +24,7 @@ from takehome_app.views import FizzBuzzViewSet
 #on FizzBuzz viewset
 router = DefaultRouter()
 ##naming convention should be fizzbuzz or fizzbuzzes? 
-router.register(r'fizzbuzzes', FizzBuzzViewSet)
+router.register(r'fizzbuzz', FizzBuzzViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
