@@ -1,7 +1,7 @@
 from django.db import models
 
 #fizzbuzz model
-class FizBuzz(models.Model):
+class FizzBuzz(models.Model):
     #primary key
     fizzbuzz_id = models.AutoField(primary_key=True)
     useragent = models.CharField(max_length=100)

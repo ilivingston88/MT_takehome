@@ -1,5 +1,5 @@
-import rest_framework import serializers
-from .models import FizBuzz
+from rest_framework import serializers
+from .models import FizzBuzz
 
 class FizzBuzzSerializer(serializers.ModelSerializer):
     class Meta:
