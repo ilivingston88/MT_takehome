@@ -15,6 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 ##include 
+from django.contrib import admin  # Add this import
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 from takehome_app.views import FizzBuzzViewSet
