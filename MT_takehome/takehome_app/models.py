@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+#fizzbuzz model
+class FizBuzz(models.Model):
+    #primary key
+    fizzbuzz_id = models.AutoField(primary_key=True)
+    useragent = models.CharField(max_length=100)
+    #auto insert datetime when created
+    creation_date = models.DateTimeField(auto_now_add=True)
+    message = models.TextField()
