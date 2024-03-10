@@ -1,4 +1,15 @@
 # MT_takehome
+This app is based on the parameters of an assignment (listed at bottom), to create a CRUD application that acts on FizzBuzz database objects. 
+Once the application code is pulled down from github, navigate to the directory that contains the manage.py file. 
+
+To start the party, use the command:
+python manage.py fizzparty
+
+This will create 100 FizzBuzz objects. 
+
+The DJANGO admin page can be found here:
+#http://127.0.0.1:8000/admin/takehome_app/fizzbuzz/
+
 <!-- Task Summary: 
 
  
