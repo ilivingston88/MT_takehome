@@ -6,7 +6,7 @@ from takehome_app.models import FizzBuzz
 class Command(BaseCommand):
     help = "get the FizzBuzz party started"
 
-    def handle(self):
+    def handle(self, *args, **kwargs):
         for i in range(100):
             FizzBuzz.objects.create(
                 useragent = 'fizzparty',
