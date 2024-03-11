@@ -10,6 +10,14 @@ This will create 100 FizzBuzz objects.
 The DJANGO admin page can be found here:
 #http://127.0.0.1:8000/admin/takehome_app/fizzbuzz/
 
+App currently allows the following:
+GET /fizzbuzz                       to list all fizzbuzz objects 
+GET /fizzbuzz/123              to retrieve a single fizz buzz object 
+POST /fizzbuzz                    to create a new fizzbuzz object 
+
+Future iterations could limit endpoints to just these (currently full CRUD functionality is possible with the DJANGO ViewSet class. 
+
+
 <!-- Task Summary: 
 
  
